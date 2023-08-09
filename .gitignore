@@ -1,8 +1,12 @@
 # OSX
 .DS_Store
+frontend/.DS_Store
+backend/.DS_Store
 
 # Node
 node_modules
+frontend/node_modules
+frontend/build
 
 # Logs
 *.log
