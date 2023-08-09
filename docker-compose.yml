@@ -1,0 +1,13 @@
+services:
+  frontend:
+    container_name: weatherapp-frontend
+    build: frontend/
+    environment:
+      - NODE_ENV=DEV
+    ports:
+      - "3000:3000"
+  backend:
+    container_name: weatherapp-backend
+    build: backend/
+    ports:
+      - "9000:9000"

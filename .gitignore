@@ -1,14 +1,24 @@
-# OSX
+output/
+venv/
+temp/
+.rpa/
+.idea/
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+.virtual_documents/
+*/.virtual_documents/*
+.vscode
 .DS_Store
-frontend/.DS_Store
-backend/.DS_Store
-
-# Node
-node_modules
-frontend/node_modules
-frontend/build
-
-# Logs
-*.log
-
-.env
+*.pyc
+*.zip
+*/work-items-out/*
+testrun/*
+.~lock*
+*.pkl
+backend/.env
+backend/node_modules/*
+frontend/build/*
+frontend/node_modules/*
+log.html
+output.xml
+report.html
