@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = process.env.NODE_ENV === 'DEV' ? 'http://localhost:9000' : 'https://test-service-1.3eo5s7qoieics.eu-north-1.cs.amazonlightsail.com/api';
+const baseURL = process.env.NODE_ENV === 'dev' ? 'http://localhost:9000' : 'https://test-service-1.3eo5s7qoieics.eu-north-1.cs.amazonlightsail.com/api';
 
 const getWeather = async (latitude, longitude) => {
   try {
