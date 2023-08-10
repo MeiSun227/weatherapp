@@ -4,8 +4,7 @@ Weather App displays weather in users current location. Currently it has been de
 
 Weather App backend is deployed with AWS Lightsail: https://test-service-1.3eo5s7qoieics.eu-north-1.cs.amazonlightsail.com/api/weather
 
-To run the entire project locally with docker compose, clone the repository and run
-`docker compose up` in project root.
+To run the entire project locally with docker compose, clone the repository, set backend environment variables in a .env file and run `docker compose up` in project root.
 
 # Weather App Backend
 
